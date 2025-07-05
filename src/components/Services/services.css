@@ -1,0 +1,351 @@
+/* Services Section Styles */
+.services-section {
+  background-color: #000000;
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.services-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 60px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  padding: 30px;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+  text-align: left;
+  margin: 0;
+}
+/* Call Expert Button */
+.call-expert-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.call-expert-btn {
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.call-expert-container .call-btn {
+  padding: 18px 36px;      
+  font-size: 1.2rem;       
+  font-weight: 1200;        
+  border-radius: 10px;    
+  background-color: white; 
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.call-expert-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.projects-viewport {
+  flex: 1;
+  overflow: hidden;
+}
+
+.projects-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.projects-track::-webkit-scrollbar {
+  display: none;
+}
+/* Projects Section */
+.projects-section {
+  background-color: #000;
+  color: white;
+  padding: 60px 0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 60px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.projects-carousel {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.carousel-arrow {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.carousel-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
+}
+
+.carousel-arrow:active {
+  transform: scale(0.95);
+}
+.projects-grid {
+  display: flex;
+  gap: 20px;
+  min-width: max-content;
+}
+
+.project-item {
+  flex: 0 0 300px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blue-info-section {
+  background: #405159;
+  padding: 80px 0;
+  position: relative;
+}
+
+.blue-info-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  align-items: start;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  height: 100%;
+}
+
+.info-icon {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon-squares {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-square {
+  background: white;
+  border-radius: 8px;
+}
+
+.icon-diamond {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 6px;
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg);
+}
+
+.diamond-shape {
+  background: white;
+  border-radius: 4px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.grid-dot {
+  background: white;
+  border-radius: 50%;
+}
+
+.info-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.info-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 35px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  
+  .service-card {
+    padding: 25px;
+  }
+  
+  .service-title {
+    font-size: 1.3rem;
+  }
+  
+  .service-description {
+    font-size: 0.95rem;
+  }
+  
+  .services-section {
+    padding: 60px 0;
+  }
+  .call-expert-container {
+    justify-content: center;
+    padding-right: 0;
+  }
+  
+  .call-expert-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  
+  .projects-title {
+    font-size: 28px;
+  }
+  
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .projects-carousel {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .service-card {
+    padding: 20px;
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+  }
+  
+  .services-container {
+    padding: 0 15px;
+  }
+}
