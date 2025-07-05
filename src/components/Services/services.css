@@ -320,6 +320,45 @@
   .projects-carousel {
     gap: 10px;
   }
+   .blue-info-section {
+    padding: 40px 15px;
+  }
+  
+  .blue-info-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .info-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 25px 20px;
+    text-align: center;
+  }
+  
+  .info-icon {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-squares,
+  .icon-diamond,
+  .icon-grid {
+    transform: scale(0.8);
+  }
+  
+  .info-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+  
+  .info-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) {
@@ -347,5 +386,33 @@
   
   .services-container {
     padding: 0 15px;
+  }
+  .blue-info-section {
+    padding: 30px 12px;
+  }
+  
+  .blue-info-container {
+    gap: 20px;
+  }
+  
+  .info-card {
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+  
+  .icon-squares,
+  .icon-diamond,
+  .icon-grid {
+    transform: scale(0.7);
+  }
+  
+  .info-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }
